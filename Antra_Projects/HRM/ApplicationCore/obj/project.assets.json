@@ -2641,11 +2641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chengcheng/Antra_Docs/src/HRM/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/chengcheng/projects/Antra_Projects/HRM/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/chengcheng/Antra_Docs/src/HRM/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/chengcheng/projects/Antra_Projects/HRM/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/chengcheng/.nuget/packages/",
-      "outputPath": "/Users/chengcheng/Antra_Docs/src/HRM/ApplicationCore/obj/",
+      "outputPath": "/Users/chengcheng/projects/Antra_Projects/HRM/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chengcheng/.nuget/NuGet/NuGet.Config"

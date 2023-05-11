@@ -2660,11 +2660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chengcheng/Antra_Docs/src/HRM/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/Users/chengcheng/projects/Antra_Projects/HRM/Infrastructure/Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/Users/chengcheng/Antra_Docs/src/HRM/Infrastructure/Infrastructure.csproj",
+      "projectPath": "/Users/chengcheng/projects/Antra_Projects/HRM/Infrastructure/Infrastructure.csproj",
       "packagesPath": "/Users/chengcheng/.nuget/packages/",
-      "outputPath": "/Users/chengcheng/Antra_Docs/src/HRM/Infrastructure/obj/",
+      "outputPath": "/Users/chengcheng/projects/Antra_Projects/HRM/Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chengcheng/.nuget/NuGet/NuGet.Config"
@@ -2679,8 +2679,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/chengcheng/Antra_Docs/src/HRM/ApplicationCore/ApplicationCore.csproj": {
-              "projectPath": "/Users/chengcheng/Antra_Docs/src/HRM/ApplicationCore/ApplicationCore.csproj"
+            "/Users/chengcheng/projects/Antra_Projects/HRM/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/Users/chengcheng/projects/Antra_Projects/HRM/ApplicationCore/ApplicationCore.csproj"
             }
           }
         }
