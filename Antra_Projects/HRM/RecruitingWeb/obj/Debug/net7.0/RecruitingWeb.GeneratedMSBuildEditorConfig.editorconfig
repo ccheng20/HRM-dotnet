@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Pages/Candidates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FuZGlkYXRlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Views/Home/Jobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Kb2JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Views/Jobs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSm9icy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/chengcheng/projects/Antra_Projects/HRM/RecruitingWeb/Views/Shared/Error.cshtml]
