@@ -13,21 +13,21 @@ public class JobsController : Controller
     }
     // GET
     [HttpGet]
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
         // return all the jobs
         // call the job service
         ViewBag.PageTitle = "Showing jobs"; // viewBag
-        var jobs = _jobService.GetAllJobs();
+        var jobs = await _jobService.GetAllJobs();
         return View(jobs); // send data through strongly typed model
     }
 
     // get the job detail information
     [HttpGet]
-    public IActionResult Details(int id)
+    public async Task<IActionResult> Details(int id)
     {
-        var job = _jobService.GetJobById(id);
-        return View();
+        var job = await _jobService.GetJobById(id);
+        return View(job);
     }
 
     [HttpPost]

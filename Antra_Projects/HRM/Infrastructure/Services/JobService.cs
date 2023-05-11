@@ -11,9 +11,9 @@ public class JobService : IJobService
     {
         _jobsRepository = jobsRepository;
     }
-    public List<JobResponseModel> GetAllJobs()
+    public async Task<List<JobResponseModel>> GetAllJobs()
     {
-        var jobs = _jobsRepository.GetAllJobs();
+        var jobs = await _jobsRepository.GetAllJobs();
         var jobsResponseModel = new List<JobResponseModel>();
         foreach (var job in jobs)
         {
@@ -26,11 +26,13 @@ public class JobService : IJobService
         return jobsResponseModel;
     }
 
-    public JobResponseModel GetJobById(int id)
+    public async Task<JobResponseModel> GetJobById(int id)
     {
-        return new JobResponseModel
+        var job = await _jobsRepository.GetJobById(id);
+        var jobResponseModel = new JobResponseModel()
         {
-            Id = 3, Title = "Python Developer", Description = "Need to be good with Python"
+            Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description
         };
+        return jobResponseModel;
     }
 }
