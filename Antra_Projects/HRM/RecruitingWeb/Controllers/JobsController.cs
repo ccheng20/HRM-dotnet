@@ -1,4 +1,5 @@
 using ApplicationCore.Contracts.Services;
+using ApplicationCore.Models;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,9 +31,24 @@ public class JobsController : Controller
         return View(job);
     }
 
-    [HttpPost]
+    //show the empty page
+    [HttpGet]
     public IActionResult Create()
     {
         return View();
+    }
+    
+    [HttpPost]
+    public async Task<IActionResult> Create(JobRequestModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View();
+        }
+
+        await _jobService.AddJob(model);
+        //save the data in database
+        // return to the index view
+        return RedirectToAction("Index");
     }
 }

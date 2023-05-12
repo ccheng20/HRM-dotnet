@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories;
 
-public class JobRepository : IJobsRepository
+public class JobRepository : Repository<Job>, IJobsRepository
 {
     private RecruitingDbContext _recruitingDbContext;
-    public JobRepository(RecruitingDbContext recruitingDbContext)
+    public JobRepository(RecruitingDbContext recruitingDbContext) : base(recruitingDbContext)
     {
         _recruitingDbContext = recruitingDbContext;
     }

@@ -6,4 +6,5 @@ public interface IJobService
 {
     Task<List<JobResponseModel>> GetAllJobs();
     Task<JobResponseModel> GetJobById(int id);
+    Task<int> AddJob(JobRequestModel model);
 }
