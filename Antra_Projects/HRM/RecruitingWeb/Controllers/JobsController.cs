@@ -30,6 +30,8 @@ public class JobsController : Controller
         var job = await _jobService.GetJobById(id);
         return View(job);
     }
+    
+
 
     //show the empty page
     [HttpGet]

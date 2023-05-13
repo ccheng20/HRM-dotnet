@@ -32,13 +32,19 @@ public class JobService : IJobService
         var job = await _jobsRepository.GetJobById(id);
         var jobResponseModel = new JobResponseModel()
         {
-            Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description
+            Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description, NumberOfPositions = job.NumberOfPositions
         };
         return jobResponseModel;
     }
 
     public async Task<int> AddJob(JobRequestModel model)
     {
+        // generate a new jobstatuslookup object
+        var jobStatusLookUpEntity = new JobStatusLookUp
+        {
+            JobStatusCode = model.JobStatusCode,
+            JobStatusDescription = model.JobStatusCode
+        };
         //call the repository that will use EF Core to save the data
         var jobEntity = new Job
         {
@@ -47,7 +53,7 @@ public class JobService : IJobService
             StartDate = model.StartDate,
             NumberOfPositions = model.NumberOfPositions,
             CreatedOn = DateTime.UtcNow,
-            JobStatusLookUpId = 1
+            JobStatusLookUp = jobStatusLookUpEntity
         };
         var job = await _jobsRepository.AddAsync(jobEntity);
         return job.Id;

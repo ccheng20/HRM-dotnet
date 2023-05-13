@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using ApplicationCore.Entities;
 
 namespace ApplicationCore.Models;
 
@@ -18,5 +19,7 @@ public class JobRequestModel
     
     [Required(ErrorMessage = "Please enter number")]
     public int NumberOfPositions { get; set; }
+    
+    public string JobStatusCode {get; set;}
     
 }
