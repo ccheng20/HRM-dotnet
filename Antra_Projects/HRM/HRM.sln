@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitingWeb", "RecruitingWeb\RecruitingWeb.csproj", "{356BA48B-1FD3-44F6-A0BC-93F15B023992}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recruiting.API", "Recruiting.API\Recruiting.API.csproj", "{B3F8B468-E562-44FF-9777-49345E69E857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{356BA48B-1FD3-44F6-A0BC-93F15B023992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{356BA48B-1FD3-44F6-A0BC-93F15B023992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{356BA48B-1FD3-44F6-A0BC-93F15B023992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F8B468-E562-44FF-9777-49345E69E857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F8B468-E562-44FF-9777-49345E69E857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F8B468-E562-44FF-9777-49345E69E857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F8B468-E562-44FF-9777-49345E69E857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
