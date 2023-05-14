@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Contracts.Services;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Recruiting.API.Controllers
@@ -21,6 +22,7 @@ namespace Recruiting.API.Controllers
         }
         
         [Route("")]
+        [HttpGet]
         public async Task<IActionResult> GetAllJobs()
         {
             var jobs = await _jobService.GetAllJobs();
@@ -32,6 +34,18 @@ namespace Recruiting.API.Controllers
             // return json data and also Http status code, 200 = ok
             // serialization => convert c# objects into Json Objects using System.Text
             return Ok(jobs);
+        }
+        [Route("{id:int}")]
+        [HttpGet]
+        public async Task<IActionResult> GetJobById(int id)
+        {
+            var job = await _jobService.GetJobById(id);
+            if (job == null)
+            {
+                return NotFound(new { error = "No job found for this id" });
+            }
+
+            return Ok(job);
         }
     }
 }
