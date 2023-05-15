@@ -5,4 +5,5 @@ namespace ApplicationCore.Contracts.Repositories;
 public interface ICandidateRepository
 {
     Task<Candidate> GetCandidateById(int id);
+    Task<List<Candidate>> GetAllCandidates();
 }
