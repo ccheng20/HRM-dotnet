@@ -25,4 +25,10 @@ public class JobRepository : Repository<Job>, IJobsRepository
         var job = await _recruitingDbContext.Jobs.FirstOrDefaultAsync(j=>j.Id == id);
         return job;
     }
+
+    public async Task<List<Job>> GetJobsByTitle(string title)
+    {
+        var jobs = await _recruitingDbContext.Jobs.Where(j => j.Title == title).ToListAsync();
+        return jobs;
+    }
 }

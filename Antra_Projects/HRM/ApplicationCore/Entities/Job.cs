@@ -21,8 +21,11 @@ public class Job
     public string? ClosedReason { get; set; }
     public DateTime? CreatedOn { get; set; }
     
+
     // add FK
     public int JobStatusLookUpId { get; set; }
     // navigation property in EF - navigating from one table to another table
     public JobStatusLookUp JobStatusLookUp { get; set; }
+    
+    public List<Submission> Submissions { get; set; }
 }

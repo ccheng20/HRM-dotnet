@@ -48,6 +48,15 @@ namespace Recruiting.API.Controllers
 
             return Ok(job); //200
         }
+        
+        [Route("{title}")]
+        [HttpGet]
+        public async Task<IActionResult> SearchByTitle(string title)
+        {
+            var jobs = await _jobService.GetJobsByTitle(title);
+            if (!jobs.Any()) return NotFound(new { error = "No job found for this title" });
+            return Ok(jobs);
+        }
 
         [HttpPost]
         [Route("")]
