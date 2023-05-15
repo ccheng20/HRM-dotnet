@@ -13,7 +13,6 @@ builder.Services.AddScoped<IJobService, JobService>();
 builder.Services.AddScoped<ISubmissionService, SubmissionService>();
 builder.Services.AddScoped<ISubmissionRepository, SubmissionRepository>();
 builder.Services.AddScoped<IJobsRepository, JobRepository>();
-builder.Services.AddScoped<IJobRequirementRepository, JobRequirementRepository>();
 
 
 //inject our connectionstring into DbContext

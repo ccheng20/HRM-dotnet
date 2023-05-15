@@ -19,11 +19,11 @@ public class SubmissionService:ISubmissionService
         throw new NotImplementedException();
     }
 
-    public async Task<int> AddSubmission(SubmissionRequestModel model, JobResponseModel jobResponseModel)
+    public async Task<int> AddSubmission(SubmissionRequestModel model)
     {
         var submissionEntity = new Submission()
         {
-            CandidateId = 1, JobId = jobResponseModel.Id, SubmittedOn = DateTime.UtcNow
+            CandidateId = 1, JobId = model.jobModel.Id, SubmittedOn = DateTime.UtcNow
         };
         var submission = await _submissionRepository.AddAsync(submissionEntity);
         return submission.Id;

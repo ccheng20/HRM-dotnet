@@ -4,6 +4,8 @@ namespace ApplicationCore.Models;
 
 public class SubmissionRequestModel
 {
+    public JobResponseModel jobModel { get; set; }
+    
     [Required(ErrorMessage = "Email is required")]
     [StringLength(256)]
     public string Email { get; set; }

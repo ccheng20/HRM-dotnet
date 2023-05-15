@@ -19,4 +19,10 @@ public class CandidateRepository : Repository<Candidate>, ICandidateRepository
         var candidate = await _recruitingDbContext.Candidates.FirstOrDefaultAsync(j=>j.Id == id);
         return candidate;
     }
+
+    public async Task<List<Candidate>> GetAllCandidates()
+    {
+        var candidates = await _recruitingDbContext.Candidates.ToListAsync();
+        return candidates;
+    }
 }

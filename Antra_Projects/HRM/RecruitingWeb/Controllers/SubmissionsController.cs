@@ -39,7 +39,7 @@ public class SubmissionsController : Controller
         }
 
         var job = ViewData["Job"] as JobResponseModel;
-        await _submissionService.AddSubmission(model, job);
+        await _submissionService.AddSubmission(model);
         return RedirectToAction("Index");
     }
 }
