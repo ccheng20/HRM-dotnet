@@ -1,3 +1,5 @@
+using ApplicationCore.Entities;
+
 namespace ApplicationCore.Models;
 
 public class CandidateResponseModel
@@ -16,5 +18,5 @@ public class CandidateResponseModel
 
     public DateTime CreatedOn { get; set; }
 
-    public List<SubmissionResponseModel> Submissions { get; set; }
+    public List<Submission> Submissions { get; set; }
 }
