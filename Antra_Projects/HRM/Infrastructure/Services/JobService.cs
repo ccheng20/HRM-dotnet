@@ -43,12 +43,7 @@ public class JobService : IJobService
 
     public async Task<int> AddJob(JobRequestModel model)
     {
-        // generate a new jobstatuslookup object
-        var jobStatusLookUpEntity = new JobStatusLookUp
-        {
-            JobStatusCode = model.JobStatusCode,
-            JobStatusDescription = model.JobStatusCode
-        };
+        
         //call the repository that will use EF Core to save the data
         var jobEntity = new Job
         {
@@ -57,7 +52,8 @@ public class JobService : IJobService
             StartDate = model.StartDate,
             NumberOfPositions = model.NumberOfPositions,
             CreatedOn = DateTime.UtcNow,
-            JobStatusLookUp = jobStatusLookUpEntity
+            JobStatusLookUpId = 1,
+            JobCode = Guid.NewGuid()
         };
         var job = await _jobsRepository.AddAsync(jobEntity);
         return job.Id;
