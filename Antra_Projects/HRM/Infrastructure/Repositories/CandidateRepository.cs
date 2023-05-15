@@ -25,4 +25,5 @@ public class CandidateRepository : Repository<Candidate>, ICandidateRepository
         var candidates = await _recruitingDbContext.Candidates.ToListAsync();
         return candidates;
     }
+    
 }

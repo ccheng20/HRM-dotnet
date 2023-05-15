@@ -17,7 +17,10 @@ public class CandidateService : ICandidateService
     public async Task<CandidateResponseModel> GetCandidateById(int id)
     {
         var candidate = await _candidateRepository.GetCandidateById(id);
-
+        if (candidate == null)
+        {
+            return null;
+        }
         var candidateResponseModel = new CandidateResponseModel()
         {
             Id = candidate.Id, CreatedOn = candidate.CreatedOn, Email = candidate.Email,
