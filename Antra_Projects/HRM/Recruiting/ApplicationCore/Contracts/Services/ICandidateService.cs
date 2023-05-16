@@ -9,4 +9,5 @@ public interface ICandidateService
     Task<List<CandidateResponseModel>> GetAllCandidates();
     Task<int> AddCandidate(CandidateRequestModel model);
 
+    Task<int> UpdateCandidate(CandidateRequestModel model, int id);
 }
