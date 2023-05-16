@@ -4,7 +4,11 @@ namespace ApplicationCore.Models;
 
 public class SubmissionRequestModel
 {
-    public JobResponseModel jobModel { get; set; }
+    [Required(ErrorMessage = "JobId is required")]
+    public int JobId { get; set; }
+    
+    [Required(ErrorMessage = "CandidateId is required")]
+    public int CandidateId { get; set; }
     
     [Required(ErrorMessage = "Email is required")]
     [StringLength(256)]
