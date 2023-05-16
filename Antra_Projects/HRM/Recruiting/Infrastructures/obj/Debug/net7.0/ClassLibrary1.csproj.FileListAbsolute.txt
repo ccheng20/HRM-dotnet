@@ -1,0 +1,12 @@
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/bin/Debug/net7.0/ClassLibrary1.deps.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/bin/Debug/net7.0/ClassLibrary1.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/bin/Debug/net7.0/ClassLibrary1.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.csproj.AssemblyReference.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.AssemblyInfoInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.AssemblyInfo.cs
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.csproj.CoreCompileInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/refint/ClassLibrary1.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ClassLibrary1.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ClassLibrary1/obj/Debug/net7.0/ref/ClassLibrary1.dll

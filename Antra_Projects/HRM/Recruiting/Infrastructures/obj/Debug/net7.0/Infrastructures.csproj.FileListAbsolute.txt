@@ -1,0 +1,17 @@
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.csproj.AssemblyReference.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.AssemblyInfoInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.AssemblyInfo.cs
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.csproj.CoreCompileInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/Infrastructures.deps.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/Infrastructures.runtimeconfig.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/Infrastructures.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/Infrastructures.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/bin/Debug/net7.0/ApplicationCore.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.csproj.CopyComplete
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/refint/Infrastructures.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/Infrastructures.genruntimeconfig.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Infrastructures/obj/Debug/net7.0/ref/Infrastructures.dll

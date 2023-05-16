@@ -1,0 +1,14 @@
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.deps.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.csproj.AssemblyReference.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.AssemblyInfoInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.AssemblyInfo.cs
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/refint/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ref/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/bin/Debug/net7.0/ApplicationCore.runtimeconfig.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/ApplicationCore/obj/Debug/net7.0/ApplicationCore.genruntimeconfig.cache

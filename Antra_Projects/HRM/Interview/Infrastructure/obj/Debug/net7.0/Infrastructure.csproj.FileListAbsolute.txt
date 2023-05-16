@@ -1,0 +1,12 @@
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/Infrastructure.deps.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/Infrastructure.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/Infrastructure.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/refint/Infrastructure.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
