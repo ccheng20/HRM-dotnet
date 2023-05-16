@@ -17,10 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="C\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
       <ProjectReference Include="..\Infrastructures\Infrastructures.csproj" />
     </ItemGroup>
