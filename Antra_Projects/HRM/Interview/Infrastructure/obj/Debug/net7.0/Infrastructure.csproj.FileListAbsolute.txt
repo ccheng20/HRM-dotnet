@@ -10,3 +10,8 @@
 /Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/refint/Infrastructure.dll
 /Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
 /Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/Infrastructure.runtimeconfig.json
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/ApplicationCore.dll
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/bin/Debug/net7.0/ApplicationCore.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CopyComplete
+/Users/chengcheng/projects/Antra_Projects/HRM/Interview/Infrastructure/obj/Debug/net7.0/Infrastructure.genruntimeconfig.cache

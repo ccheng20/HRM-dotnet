@@ -1,14 +1,16 @@
-using Microsoft.VisualBasic;
+using System.ComponentModel.DataAnnotations;
 
-namespace Infrastructure.Entites;
+namespace ApplicationCore.Entities;
 
-public class Interviews
+public class Interview
 {
     public int Id { get; set; }
     public DateTime BeginTime { get; set; }
     public string CandidateEmail { get; set; }
+    [MaxLength(50)]
     public string CandidateFirstName { get; set; }
     public int CandidateId { get; set; }
+    [MaxLength(50)]
     public string CandidateLastName { get; set; }
     public DateTime EndTime { get; set; }
     public string? Feedback { get; set; }
@@ -17,4 +19,5 @@ public class Interviews
     public bool? Passed { get; set; }
     public int? Rating { get; set; }
     public int SubmissionId { get; set; }
+    
 }

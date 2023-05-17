@@ -1045,6 +1045,9 @@
       "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3"
+        },
         "compile": {
           "bin/placeholder/ApplicationCore.dll": {}
         },
@@ -2887,7 +2890,6 @@
       "ApplicationCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0-preview.3.23174.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0-preview.3.23174.2",
-      "Microsoft.EntityFrameworkCore.Relational >= 8.0.0-preview.3.23174.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.3.23174.2"
     ]
   },
@@ -2942,10 +2944,6 @@
             "target": "Package",
             "version": "[8.0.0-preview.3.23174.2, )"
           },
-          "Microsoft.EntityFrameworkCore.Relational": {
-            "target": "Package",
-            "version": "[8.0.0-preview.3.23174.2, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.0-preview.3.23174.2, )"
@@ -2970,5 +2968,16 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Infrastructures -> ApplicationCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Infrastructures -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
