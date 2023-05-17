@@ -29,6 +29,7 @@ public class InterviewsService: IInterviewsService
             CandidateLastName = interview.CandidateLastName,
             EndTime = interview.EndTime,
             Feedback = interview.Feedback,
+            Rating = interview.Rating,
         };
         return response;
     }
@@ -51,6 +52,7 @@ public class InterviewsService: IInterviewsService
                 CandidateLastName = interview.CandidateLastName,
                 EndTime = interview.EndTime,
                 Feedback = interview.Feedback,
+                Rating = interview.Rating
             });
         }
 
@@ -70,6 +72,7 @@ public class InterviewsService: IInterviewsService
          CandidateEmail = model.CandidateEmail,
          CandidateFirstName = model.CandidateFirstName, 
          CandidateLastName = model.CandidateLastName,
+         Rating = model.Rating
         };
      await _interviewsRepository.AddAsync(interview);
      return interview.Id;
