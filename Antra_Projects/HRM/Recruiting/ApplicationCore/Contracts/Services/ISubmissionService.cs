@@ -12,4 +12,7 @@ public interface ISubmissionService
     Task<List<SubmissionResponseModel>> GetSubmissionsByJobId(int jobId);
     Task<List<SubmissionResponseModel>> GetAllSubmissions();
 
+    Task<int> DeleteSubmission(int id);
+    Task<int> UpdateSubmission(SubmissionRequestModel model, int id);
+
 }

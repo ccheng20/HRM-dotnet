@@ -49,5 +49,26 @@ namespace Recruitings.API.Controllers
             var updatedStatus = await _statusService.UpdateStatus(model, id);
             return Ok(updatedStatus);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var status = await _statusService.GetStatusById(id);
+            if (status == null) return NotFound(new {error = "Cannot find status by this id"});
+            await _statusService.DeleteStatus(id);
+            return Ok(id);
+        }
+
+        [HttpGet("")]
+        public async Task<IActionResult> GetAll()
+        {
+            var allStatus =await _statusService.GetAllStatus();
+            if (!allStatus.Any())
+            {
+                return NotFound(new { error = "Cannot find any job status" });
+            }
+
+            return Ok(allStatus);
+        }
     }
 }

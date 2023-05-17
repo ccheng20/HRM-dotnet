@@ -104,4 +104,29 @@ public class SubmissionService:ISubmissionService
 
         return submissionModels;
     }
+
+    public async Task<int> DeleteSubmission(int id)
+    {
+        var submission = await _submissionRepository.GetSubmissionById(id);
+        if (submission != null)
+        {
+            await _submissionRepository.DeleteAsync(id);
+        }
+        return id;
+    }
+
+    public async Task<int> UpdateSubmission(SubmissionRequestModel model, int id)
+    {
+
+        var existingSubmission = await _submissionRepository.GetSubmissionById(id);
+        if (existingSubmission != null)
+        {
+            existingSubmission.CandidateId = model.CandidateId;
+            existingSubmission.JobId = model.JobId;
+            
+        }
+
+        await _submissionRepository.UpdateAsync(existingSubmission);
+        return id;
+    }
 }
