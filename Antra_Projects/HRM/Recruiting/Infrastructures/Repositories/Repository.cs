@@ -42,13 +42,22 @@ public class Repository<T>: IRepository<T> where T:class
         return entity;
     }
 
-    public async Task<int> UpdateAsync(T entity)
+    public async Task<T> UpdateAsync(T entity)
     {
-        throw new NotImplementedException();
+        _dbContext.Set<T>().Update(entity);
+        await _dbContext.SaveChangesAsync();
+        return entity;
     }
 
     public async Task<int> DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        var entity = await _dbContext.Set<T>().FindAsync(id);
+        if (entity != null)
+        {
+            _dbContext.Set<T>().Remove(entity);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        return id;
     }
 }

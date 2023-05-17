@@ -10,12 +10,10 @@ namespace ClassLibrary1.Services;
 public class CandidateService : ICandidateService
 {
     private readonly ICandidateRepository _candidateRepository;
-    private readonly ISubmissionRepository _submissionRepository;
 
-    public CandidateService(ICandidateRepository candidateRepository, ISubmissionRepository submissionRepository)
+    public CandidateService(ICandidateRepository candidateRepository)
     {
         _candidateRepository = candidateRepository;
-        _submissionRepository = submissionRepository;
     }
 
     public async Task<CandidateResponseModel> GetCandidateById(int id)
@@ -76,11 +74,10 @@ public class CandidateService : ICandidateService
             existingCandidate.Email = model.Email;
             existingCandidate.FirstName = model.FirstName;
             existingCandidate.LastName = model.LastName;
-            existingCandidate.Submissions = await _submissionRepository.GetSubmissionsByCandidate(id);
             existingCandidate.ResumeURL = model.ResumeURL;
         }
 
         var candidateId = await _candidateRepository.UpdateAsync(existingCandidate);
-        return candidateId;
+        return candidateId.Id;
     }
 }
