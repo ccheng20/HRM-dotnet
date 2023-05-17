@@ -37,6 +37,7 @@ public class SubmissionService:ISubmissionService
         var submissionEntity = new Submission()
         {
             CandidateId = model.CandidateId, JobId = model.JobId, SubmittedOn = DateTime.UtcNow,
+            RejectedOn = model.RejectedOn, RejectedReason = model.RejectedReason, SelectedForInterview = model.SelectedForInterview
         };
         var submission = await _submissionRepository.AddAsync(submissionEntity);
         return submission.Id;
@@ -123,7 +124,11 @@ public class SubmissionService:ISubmissionService
         {
             existingSubmission.CandidateId = model.CandidateId;
             existingSubmission.JobId = model.JobId;
-            
+            existingSubmission.RejectedOn = model.RejectedOn;
+            existingSubmission.RejectedReason = model.RejectedReason;
+            existingSubmission.SelectedForInterview = model.SelectedForInterview;
+            existingSubmission.SubmittedOn = DateTime.UtcNow;
+
         }
 
         await _submissionRepository.UpdateAsync(existingSubmission);

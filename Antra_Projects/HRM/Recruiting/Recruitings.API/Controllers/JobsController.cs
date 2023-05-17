@@ -2,6 +2,7 @@
 using ApplicationCore.Contracts.Services;
 using ApplicationCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Recruitings.API.Controllers
 {
@@ -65,5 +66,29 @@ namespace Recruitings.API.Controllers
             var job = await _jobService.AddJob(model);
             return CreatedAtAction("GetJobById", new {controller = "Jobs", id = job}, "Job Created"); //201
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(JobRequestModel model, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            var job = await _jobService.GetJobById(id);
+            if (job == null) return NotFound();
+            await _jobService.UpdateJob(model, id);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var job = await _jobService.GetJobById(id);
+            if (job == null) return NotFound();
+            await _jobService.DeleteJob(id);
+            return Ok();
+        }
+        
     }
 }

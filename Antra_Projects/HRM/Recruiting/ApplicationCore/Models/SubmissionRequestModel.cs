@@ -24,4 +24,9 @@ public class SubmissionRequestModel
     
     [StringLength(256)]
     public string? ResumeUrl { get; set; }
+    
+    public string? RejectedReason { get; set; }
+    public DateTime? RejectedOn { get; set; }
+    public DateTime? SelectedForInterview { get; set; }
+    public DateTime? SubmittedOn { get; set; }
 }

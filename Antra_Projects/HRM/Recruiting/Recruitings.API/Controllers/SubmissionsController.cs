@@ -48,6 +48,24 @@ namespace Recruitings.API.Controllers
             var submission = await _submissionService.AddSubmission(model);
             return CreatedAtAction("GetSubmissionById", new {controller = "Submissions", id = submission}, "Submission Created");
         }
-        
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(SubmissionRequestModel model, int id)
+        {
+            if (!ModelState.IsValid) return BadRequest();
+            var submission = await _submissionService.GetSubmissionById(id);
+            if (submission == null) return NotFound();
+            var submissionId = await _submissionService.UpdateSubmission(model, id);
+            return Ok("Successfully updated the submission");
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var submission = await _submissionService.GetSubmissionById(id);
+            if (submission == null) return NotFound();
+            await _submissionService.DeleteSubmission(id);
+            return Ok(id);
+        }
     }
 }

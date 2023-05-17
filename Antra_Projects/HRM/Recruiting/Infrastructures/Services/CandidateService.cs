@@ -63,6 +63,8 @@ public class CandidateService : ICandidateService
         var candidate =await _candidateRepository.AddAsync(candidateEntity);
         return candidate.Id;
     }
+    
+    
 
 
 
@@ -75,9 +77,18 @@ public class CandidateService : ICandidateService
             existingCandidate.FirstName = model.FirstName;
             existingCandidate.LastName = model.LastName;
             existingCandidate.ResumeURL = model.ResumeURL;
+            existingCandidate.MiddleName = model.MiddleName;
         }
 
         var candidateId = await _candidateRepository.UpdateAsync(existingCandidate);
         return candidateId.Id;
+    }
+
+    public async Task<int?> DeleteCandidate(int id)
+    {
+        var candidate = await _candidateRepository.GetCandidateById(id);
+        if (candidate == null) return null;
+        var candidateId = await _candidateRepository.DeleteAsync(id);
+        return candidateId;
     }
 }

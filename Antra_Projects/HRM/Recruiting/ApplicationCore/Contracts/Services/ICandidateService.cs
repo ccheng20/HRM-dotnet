@@ -10,4 +10,5 @@ public interface ICandidateService
     Task<int> AddCandidate(CandidateRequestModel model);
 
     Task<int> UpdateCandidate(CandidateRequestModel model, int id);
+    Task<int?> DeleteCandidate(int id);
 }

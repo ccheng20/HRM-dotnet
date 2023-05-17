@@ -22,7 +22,9 @@ public class JobService : IJobService
         {
             jobsResponseModel.Add( new JobResponseModel()
             {
-                Id= job.Id, Description = job.Description, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), NumberOfPositions = job.NumberOfPositions
+                Id= job.Id, Description = job.Description, Title = job.Title, 
+                StartDate = job.StartDate.GetValueOrDefault(), NumberOfPositions = job.NumberOfPositions,
+                JobCode = job.JobCode
             });
         }
 
@@ -38,7 +40,9 @@ public class JobService : IJobService
         }
         var jobResponseModel = new JobResponseModel()
         {
-            Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description, NumberOfPositions = job.NumberOfPositions
+            Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), 
+            Description = job.Description, NumberOfPositions = job.NumberOfPositions,
+            JobCode = job.JobCode
         };
         return jobResponseModel;
     }
@@ -51,11 +55,32 @@ public class JobService : IJobService
         {
             models.Add(new JobResponseModel()
             {
-                Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description, NumberOfPositions = job.NumberOfPositions
+                Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description, NumberOfPositions = job.NumberOfPositions, JobCode = job.JobCode
             });
         }
 
         return models;
+    }
+
+    public async Task<int?> UpdateJob(JobRequestModel model, int id)
+    {
+        var job = await _jobsRepository.GetJobById(id);
+        if (job == null) return null;
+        job.Description = model.Description;
+        job.JobStatusLookUpId = model.JobStatusLookUpId;
+        job.Title = model.Title;
+        job.StartDate = model.StartDate;
+        job.NumberOfPositions = model.NumberOfPositions;
+        var updatedJob = await _jobsRepository.UpdateAsync(job);
+        return updatedJob.Id;
+    }
+
+    public async Task<int?> DeleteJob(int id)
+    {
+        var job = await _jobsRepository.GetJobById(id);
+        if (job == null) return null;
+        await _jobsRepository.DeleteAsync(id);
+        return id;
     }
 
     public async Task<int> AddJob(JobRequestModel model)
@@ -69,7 +94,7 @@ public class JobService : IJobService
             StartDate = model.StartDate,
             NumberOfPositions = model.NumberOfPositions,
             CreatedOn = DateTime.UtcNow,
-            JobStatusLookUpId = 1,
+            JobStatusLookUpId = model.JobStatusLookUpId,
             JobCode = Guid.NewGuid()
         };
         var job = await _jobsRepository.AddAsync(jobEntity);
