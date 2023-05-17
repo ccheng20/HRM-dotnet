@@ -1060,8 +1060,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "ApplicationCore": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0-preview.3.23174.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.3.23174.2"
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.4.23259.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3"
         },
         "compile": {
           "bin/placeholder/Infrastructures.dll": {}

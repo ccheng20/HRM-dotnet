@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "guH/poELGzXUNEAGxFTJm+kaRBeG8gpVyM/1hjwd4/owMaaAo1hTp2Ro7sGeDv/18jdRXkQ3CP506tWxzRVNRw==",
+  "dgSpecHash": "SM1JD5VHfukIn/QAzlMMW7Xgxlfxo2Udjqv11nKmplsdQuRMbYExMffGfiYWYXy+MKs+SM/nAjUz9snd18CQLw==",
   "success": false,
   "projectFilePath": "/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Recruitings.API/Recruitings.API.csproj",
   "expectedPackageFiles": [
@@ -33,23 +33,23 @@
     "/Users/chengcheng/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.diasymreader/1.4.0/microsoft.diasymreader.1.4.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.dotnet.scaffolding.shared/7.0.6/microsoft.dotnet.scaffolding.shared.7.0.6.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.8.0.0-preview.3.23174.2.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.abstractions.8.0.0-preview.3.23174.2.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.analyzers.8.0.0-preview.3.23174.2.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.abstractions.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.analyzers.8.0.0-preview.4.23259.3.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.design/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.design.8.0.0-preview.3.23174.2.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.relational.8.0.0-preview.3.23174.2.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.sqlserver.8.0.0-preview.3.23174.2.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.caching.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.memory/8.0.0-preview.3.23174.8/microsoft.extensions.caching.memory.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.memory/8.0.0-preview.4.23259.5/microsoft.extensions.caching.memory.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.configuration.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0-preview.3.23174.8/microsoft.extensions.dependencymodel.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.3.23174.8/microsoft.extensions.logging.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.logging.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.options/8.0.0-preview.3.23174.8/microsoft.extensions.options.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.3.23174.8/microsoft.extensions.primitives.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.4.23259.5/microsoft.extensions.logging.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.options/8.0.0-preview.4.23259.5/microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.primitives/8.0.0-preview.4.23259.5/microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.identity.client/4.47.2/microsoft.identity.client.4.47.2.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.identity.client.extensions.msal/2.19.3/microsoft.identity.client.extensions.msal.2.19.3.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.identitymodel.abstractions/6.24.0/microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",
@@ -195,6 +195,15 @@
       "code": "NU1605",
       "level": "Error",
       "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> ApplicationCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> Infrastructures -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
       "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
       "targetGraphs": [
         "net7.0"
