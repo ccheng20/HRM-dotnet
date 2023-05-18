@@ -25,8 +25,6 @@ builder.Services.AddScoped<IStatusRepository, StatusRepository>();
 builder.Services.AddScoped<IStatusService, StatusService>();
 
 
-
-
 //inject our connectionstring into DbContext
 builder.Services.AddDbContext<RecruitingDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection")));
@@ -35,11 +33,11 @@ builder.Services.AddDbContext<RecruitingDbContext>(
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 
 app.UseHttpsRedirection();
 

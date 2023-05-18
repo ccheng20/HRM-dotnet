@@ -917,7 +917,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/5.1.0": {
+      "Microsoft.Data.SqlClient/5.1.1": {
         "type": "package",
         "dependencies": {
           "Azure.Identity": "1.7.0",
@@ -1065,12 +1065,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.3.23174.2": {
+      "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.4.23259.3": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.3.23174.2",
-          "Microsoft.Extensions.DependencyModel": "8.0.0-preview.3.23174.8",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.4.23259.3",
+          "Microsoft.Extensions.DependencyModel": "8.0.0-preview.4.23259.5",
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
@@ -1087,11 +1087,11 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.3.23174.2": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.4.23259.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0-preview.3.23174.2",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-preview.3.23174.8"
+          "Microsoft.EntityFrameworkCore": "8.0.0-preview.4.23259.3",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0-preview.4.23259.5"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -1104,11 +1104,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.3.23174.2": {
+      "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.4.23259.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "5.1.0",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.3.23174.2"
+          "Microsoft.Data.SqlClient": "5.1.1",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0-preview.4.23259.3"
         },
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -1174,10 +1174,10 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.3.23174.8": {
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.4.23259.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0-preview.3.23174.8"
+          "Microsoft.Extensions.Primitives": "8.0.0-preview.4.23259.5"
         },
         "compile": {
           "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
@@ -1228,11 +1228,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyModel/8.0.0-preview.3.23174.8": {
+      "Microsoft.Extensions.DependencyModel/8.0.0-preview.4.23259.5": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0-preview.3.23174.8",
-          "System.Text.Json": "8.0.0-preview.3.23174.8"
+          "System.Text.Encodings.Web": "8.0.0-preview.4.23259.5",
+          "System.Text.Json": "8.0.0-preview.4.23259.5"
         },
         "compile": {
           "lib/net7.0/_._": {
@@ -3553,7 +3553,7 @@
           }
         }
       },
-      "System.Text.Encodings.Web/8.0.0-preview.3.23174.8": {
+      "System.Text.Encodings.Web/8.0.0-preview.4.23259.5": {
         "type": "package",
         "compile": {
           "lib/net7.0/System.Text.Encodings.Web.dll": {
@@ -3575,10 +3575,10 @@
           }
         }
       },
-      "System.Text.Json/8.0.0-preview.3.23174.8": {
+      "System.Text.Json/8.0.0-preview.4.23259.5": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0-preview.3.23174.8"
+          "System.Text.Encodings.Web": "8.0.0-preview.4.23259.5"
         },
         "compile": {
           "lib/net7.0/System.Text.Json.dll": {
@@ -4839,10 +4839,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.SqlClient/5.1.0": {
-      "sha512": "wA+a+7niwImfbAsPo6cDiQaqbpDzVGRDuZtQpSBiO3JPOTPQkR8xNYKH+c16Nz9RE2AyjtyvQdGokOrhxORBKQ==",
+    "Microsoft.Data.SqlClient/5.1.1": {
+      "sha512": "MW5E9HFvCaV069o8b6YpuRDPBux8s96qDnOJ+4N9QNUCs7c5W3KxwQ+ftpAjbMUlImL+c9WR+l+f5hzjkqhu2g==",
       "type": "package",
-      "path": "microsoft.data.sqlclient/5.1.0",
+      "path": "microsoft.data.sqlclient/5.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4869,7 +4869,7 @@
         "lib/netstandard2.1/Microsoft.Data.SqlClient.dll",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.pdb",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.xml",
-        "microsoft.data.sqlclient.5.1.0.nupkg.sha512",
+        "microsoft.data.sqlclient.5.1.1.nupkg.sha512",
         "microsoft.data.sqlclient.nuspec",
         "ref/net462/Microsoft.Data.SqlClient.dll",
         "ref/net462/Microsoft.Data.SqlClient.pdb",
@@ -4991,10 +4991,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.3.23174.2": {
-      "sha512": "tn5nNCa4tLKe9hU3dy95wSMyCuCP2y2aAFr0ma9c2aCbu0/auYbns/hPJHPfk1OfpretAxyoVPhojN/ffIdJxg==",
+    "Microsoft.EntityFrameworkCore.Design/8.0.0-preview.4.23259.3": {
+      "sha512": "fnt4HmXaWIr9XVjeL4xaJ8VQWkpQ85qSpBnSvbqYbXQf8R/RRlW1NqT+iVAvl4Kz613ibWRL3mY9o8uKqR8OTQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/8.0.0-preview.3.23174.2",
+      "path": "microsoft.entityframeworkcore.design/8.0.0-preview.4.23259.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5002,35 +5002,35 @@
         "build/net6.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.8.0.0-preview.3.23174.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.8.0.0-preview.4.23259.3.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.3.23174.2": {
-      "sha512": "Eh2pR+E2TCYqBkXt4eXgOwKN6ZzO1/U/MQKU+wbVoTAqvfGX2t6C7q+uX8YjZaiHHmkX3sZgrRAeFrEeiCRmYQ==",
+    "Microsoft.EntityFrameworkCore.Relational/8.0.0-preview.4.23259.3": {
+      "sha512": "R9ezc0fo65d8C9+8DVIIk8F2eQgNOV0StDwHxNZHryNq7hQa++c/3kd1hD6MMPiPbbQ0CG8JC+NTn7Aigbn3dA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/8.0.0-preview.3.23174.2",
+      "path": "microsoft.entityframeworkcore.relational/8.0.0-preview.4.23259.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.8.0.0-preview.3.23174.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.8.0.0-preview.4.23259.3.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.3.23174.2": {
-      "sha512": "egbrsnvSXmCSW3LrzHomf1aRIZOxdXNIONsDzyQXypNHtWVQ8YjnkNCxpKSdurxchmiwA2dbWZNHXJNoCj8VPQ==",
+    "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.4.23259.3": {
+      "sha512": "ZXxWMcRpL/kUUysVH7IGjx1v6xLGQOwLDyFv1fuVJnzql1k/sF0aPfHVMNTjmRBpSOFoCsdnupUDOvJipBg9Ow==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/8.0.0-preview.3.23174.2",
+      "path": "microsoft.entityframeworkcore.sqlserver/8.0.0-preview.4.23259.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.8.0.0-preview.3.23174.2.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.8.0.0-preview.4.23259.3.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -5323,10 +5323,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.3.23174.8": {
-      "sha512": "MWHtyuSmaspZcGbOQxdWEmUW9VAYpD+pN4YtApbE3tu1NFiWb7ooQNBPV/g6JgGhMAo3FSmTmaK8Cirg+8hxdw==",
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0-preview.4.23259.5": {
+      "sha512": "7EUEZ1xSoUafsQTV85KYdBR7Zhjkvhc/ZUhGjc/bP1AmXzXNBKXwKFwYC7ZsojVyc7Nc/DBpv2eCtsNaVbHudQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/8.0.0-preview.3.23174.8",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0-preview.4.23259.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5348,7 +5348,7 @@
         "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -5415,10 +5415,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyModel/8.0.0-preview.3.23174.8": {
-      "sha512": "d16qEECd7sefrxPu//9Bz2rtgVHbjaHUSMcNxQJi99F6E3DIrqcJM5eKr/aFzyy3KnOMKwHKJof047/AXFWouw==",
+    "Microsoft.Extensions.DependencyModel/8.0.0-preview.4.23259.5": {
+      "sha512": "Ds/BojQ0hrM75ZoZAHphwSFJMZJi3TwFsozrYB8sR9CHlMozGDHndogZb4DAh5yRYpxo0xph/jnxPSVFenFW/g==",
       "type": "package",
-      "path": "microsoft.extensions.dependencymodel/8.0.0-preview.3.23174.8",
+      "path": "microsoft.extensions.dependencymodel/8.0.0-preview.4.23259.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5440,7 +5440,7 @@
         "lib/net8.0/Microsoft.Extensions.DependencyModel.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.8.0.0-preview.3.23174.8.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.8.0.0-preview.4.23259.5.nupkg.sha512",
         "microsoft.extensions.dependencymodel.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -10384,10 +10384,10 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
-    "System.Text.Encodings.Web/8.0.0-preview.3.23174.8": {
-      "sha512": "jk5t0QRo9K1LsGf9TUNjcm/cF72ChLUsP3QkFVmXSLkeD6/5krpTMjWdinUl5sHHn2odsUlLg1H6fcgP4EkYTA==",
+    "System.Text.Encodings.Web/8.0.0-preview.4.23259.5": {
+      "sha512": "TZaKmA6c35Buq3LiInkiNAUQmN8fszWaIN5GPCQOPybHxcoSbGgX5EvSQoe2Dw2JRW7fVltVTSX1MCb4ROxV/Q==",
       "type": "package",
-      "path": "system.text.encodings.web/8.0.0-preview.3.23174.8",
+      "path": "system.text.encodings.web/8.0.0-preview.4.23259.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10414,15 +10414,15 @@
         "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.8.0.0-preview.3.23174.8.nupkg.sha512",
+        "system.text.encodings.web.8.0.0-preview.4.23259.5.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.0-preview.3.23174.8": {
-      "sha512": "iewL8pmcI3vSRYgT9edcCFlqCep65bTZaPK+sqvnrEoQr0upLY4BIFjp4F/rhHMIWeYFUC/AZDRAeAxI0q2HDw==",
+    "System.Text.Json/8.0.0-preview.4.23259.5": {
+      "sha512": "qNO70t+4q6ZA2ty6gFBOm71IhjVkeUhllz7Ke0vpbTvpMpBcHuX0EBgc9SHMBZsPiHwxlLdCe9sPfxVZ69F6nA==",
       "type": "package",
-      "path": "system.text.json/8.0.0-preview.3.23174.8",
+      "path": "system.text.json/8.0.0-preview.4.23259.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -10487,7 +10487,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.0-preview.3.23174.8.nupkg.sha512",
+        "system.text.json.8.0.0-preview.4.23259.5.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -11013,8 +11013,9 @@
       "ApplicationCore >= 1.0.0",
       "Infrastructures >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.0-preview.3.23174.2",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.3.23174.2",
+      "Microsoft.EntityFrameworkCore >= 8.0.0-preview.4.23259.3",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.0-preview.4.23259.3",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.4.23259.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.6",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -11067,15 +11068,19 @@
             "target": "Package",
             "version": "[7.0.5, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0-preview.4.23259.3, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.0-preview.3.23174.2, )"
+            "version": "[8.0.0-preview.4.23259.3, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[8.0.0-preview.3.23174.2, )"
+            "version": "[8.0.0-preview.4.23259.3, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -11108,25 +11113,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> ApplicationCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> Infrastructures -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

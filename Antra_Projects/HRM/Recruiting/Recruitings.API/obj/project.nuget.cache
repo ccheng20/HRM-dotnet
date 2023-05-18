@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "SM1JD5VHfukIn/QAzlMMW7Xgxlfxo2Udjqv11nKmplsdQuRMbYExMffGfiYWYXy+MKs+SM/nAjUz9snd18CQLw==",
-  "success": false,
+  "dgSpecHash": "zfc89LQIl+G0DeHvlb4iVhcNpmkPft3H3J/i+sWYvpfs51PU8G0L9w/i0K0ze00swTyljoifOfI23RAKJnG3Tg==",
+  "success": true,
   "projectFilePath": "/Users/chengcheng/projects/Antra_Projects/HRM/Recruiting/Recruitings.API/Recruitings.API.csproj",
   "expectedPackageFiles": [
     "/Users/chengcheng/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
@@ -29,23 +29,23 @@
     "/Users/chengcheng/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.4.0/microsoft.codeanalysis.workspaces.common.4.4.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.codeanalysis.workspaces.msbuild/4.4.0/microsoft.codeanalysis.workspaces.msbuild.4.4.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.data.sqlclient/5.1.0/microsoft.data.sqlclient.5.1.0.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.diasymreader/1.4.0/microsoft.diasymreader.1.4.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.dotnet.scaffolding.shared/7.0.6/microsoft.dotnet.scaffolding.shared.7.0.6.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.8.0.0-preview.4.23259.3.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.abstractions.8.0.0-preview.4.23259.3.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.analyzers.8.0.0-preview.4.23259.3.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.design/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.design.8.0.0-preview.3.23174.2.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.relational.8.0.0-preview.3.23174.2.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.0-preview.3.23174.2/microsoft.entityframeworkcore.sqlserver.8.0.0-preview.3.23174.2.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.design/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.design.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.relational.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.0-preview.4.23259.3/microsoft.entityframeworkcore.sqlserver.8.0.0-preview.4.23259.3.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.caching.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.caching.memory/8.0.0-preview.4.23259.5/microsoft.extensions.caching.memory.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0-preview.3.23174.8/microsoft.extensions.configuration.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.configuration.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0-preview.3.23174.8/microsoft.extensions.dependencymodel.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0-preview.4.23259.5/microsoft.extensions.dependencymodel.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging/8.0.0-preview.4.23259.5/microsoft.extensions.logging.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/microsoft.extensions.options/8.0.0-preview.4.23259.5/microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
@@ -178,8 +178,8 @@
     "/Users/chengcheng/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/system.text.encodings.web/8.0.0-preview.3.23174.8/system.text.encodings.web.8.0.0-preview.3.23174.8.nupkg.sha512",
-    "/Users/chengcheng/.nuget/packages/system.text.json/8.0.0-preview.3.23174.8/system.text.json.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/system.text.encodings.web/8.0.0-preview.4.23259.5/system.text.encodings.web.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/chengcheng/.nuget/packages/system.text.json/8.0.0-preview.4.23259.5/system.text.json.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.text.regularexpressions/4.3.0/system.text.regularexpressions.4.3.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
@@ -190,24 +190,5 @@
     "/Users/chengcheng/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/chengcheng/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> ApplicationCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 8.0.0-preview.4.23259.3 to 8.0.0-preview.3.23174.2. Reference the package directly from the project to select a different version. \n Recruitings.API -> Infrastructures -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.4.23259.3) \n Recruitings.API -> Microsoft.EntityFrameworkCore.SqlServer (>= 8.0.0-preview.3.23174.2)",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

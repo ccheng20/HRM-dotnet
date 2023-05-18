@@ -1041,6 +1041,19 @@
             "rid": "win"
           }
         }
+      },
+      "ApplicationCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.4.23259.3"
+        },
+        "compile": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        }
       }
     }
   },
@@ -2865,10 +2878,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ApplicationCore/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationCore/ApplicationCore.csproj",
+      "msbuildProject": "../ApplicationCore/ApplicationCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ApplicationCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0-preview.4.23259.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.4.23259.3"
     ]
@@ -2897,7 +2916,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/chengcheng/projects/Antra_Projects/HRM/Onboarding/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/Users/chengcheng/projects/Antra_Projects/HRM/Onboarding/ApplicationCore/ApplicationCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
