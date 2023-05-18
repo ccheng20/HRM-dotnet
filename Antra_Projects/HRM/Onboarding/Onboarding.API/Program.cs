@@ -1,4 +1,6 @@
+using ApplicationCore.Contracts.Repositories;
 using Infrastructure.Data;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IEmployeeStatusLookUpRepository, EmployeeStatusLookUpRepository>();
 
 builder.Services.AddDbContext<OnboardingDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDbConnection")));
