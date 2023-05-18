@@ -19,4 +19,5 @@ RUN dotnet publish "Recruitings.API.csproj" -c Release -o /app/publish /p:UseApp
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV MSSQLConnectionString='Server=tcp:fullstackhrm.database.windows.net,1433;Initial Catalog=RecruitingDb;Persist Security Info=False;User ID=fullstack;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
 ENTRYPOINT ["dotnet", "Recruitings.API.dll"]
