@@ -34,6 +34,7 @@ public class EmployeeService: IEmployeeService
             LastName = employee.LastName,
             HireDate = employee.HireDate,
             MiddleName = employee.MiddleName,
+            SSN = employee.SSN
         };
         return employeeResponseModel;
     }
@@ -56,6 +57,7 @@ public class EmployeeService: IEmployeeService
                 LastName = employee.LastName,
                 HireDate = employee.HireDate,
                 MiddleName = employee.MiddleName,
+                SSN = employee.SSN
             });
         }
 
@@ -75,6 +77,7 @@ public class EmployeeService: IEmployeeService
             LastName = model.LastName,
             HireDate = model.HireDate,
             MiddleName = model.MiddleName,
+            SSN = model.SSN
         };
         await _employeeRepository.AddAsync(employeeEntity);
         return employeeEntity.Id;
@@ -94,6 +97,7 @@ public class EmployeeService: IEmployeeService
             employee.LastName = model.LastName;
             employee.HireDate = model.HireDate;
             employee.MiddleName = model.MiddleName;
+            employee.SSN = model.SSN;
             await _employeeRepository.UpdateAsync(employee);
         }
     }

@@ -1,6 +1,8 @@
 using ApplicationCore.Contracts.Repositories;
+using ApplicationCore.Contracts.Services;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IEmployeeStatusLookUpRepository, EmployeeStatusLookUpRepository>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IEmployeeStatusLookUpService, EmployeeStatusLookUpService>();
 
 builder.Services.AddDbContext<OnboardingDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDbConnection")));
