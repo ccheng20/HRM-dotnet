@@ -90,3 +90,4 @@
 /Users/chengcheng/projects/Antra_Projects/HRM/Interviews/Interview.API/bin/Debug/net7.0/Infrastructure.dll
 /Users/chengcheng/projects/Antra_Projects/HRM/Interviews/Interview.API/bin/Debug/net7.0/ApplicationCore.pdb
 /Users/chengcheng/projects/Antra_Projects/HRM/Interviews/Interview.API/bin/Debug/net7.0/Infrastructure.pdb
+/Users/chengcheng/projects/Antra_Projects/HRM/Interviews/Interview.API/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

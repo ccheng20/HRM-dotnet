@@ -1,5 +1,6 @@
 using ApplicationCore.Contracts.Service;
 using ApplicationCore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Interview.API.Controllers
@@ -16,6 +17,7 @@ namespace Interview.API.Controllers
         }
         
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAllInterviews()
         {
             var interviews = await _interviewsService.GetAllInterviews();

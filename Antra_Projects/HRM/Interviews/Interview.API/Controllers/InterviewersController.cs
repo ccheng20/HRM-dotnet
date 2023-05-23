@@ -1,5 +1,6 @@
 using ApplicationCore.Contracts.Service;
 using ApplicationCore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Interview.API.Controllers
@@ -16,11 +17,16 @@ namespace Interview.API.Controllers
         }
         
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAllInterviewers()
         {
+            // if role = admin, get all
+            // if role = manager, get manager's interviews
+         
             var interviewers = await _interviewersService.GetAllInterviewers();
             if (!interviewers.Any())
                 return NotFound("No interviewers found");
+            
             return Ok(interviewers);
         }
         
