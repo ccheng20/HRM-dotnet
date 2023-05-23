@@ -23,7 +23,7 @@ namespace ClassLibrary1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ApplicationCore.Entities.Candidate", b =>
+            modelBuilder.Entity("AppC.Entities.Candidate", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,7 +67,7 @@ namespace ClassLibrary1.Migrations
                     b.ToTable("Candidates");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Job", b =>
+            modelBuilder.Entity("AppC.Entities.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -117,7 +117,7 @@ namespace ClassLibrary1.Migrations
                     b.ToTable("Jobs");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.JobStatusLookUp", b =>
+            modelBuilder.Entity("AppC.Entities.JobStatusLookUp", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -138,7 +138,7 @@ namespace ClassLibrary1.Migrations
                     b.ToTable("JobStatusLookUps");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Submission", b =>
+            modelBuilder.Entity("AppC.Entities.Submission", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -174,9 +174,9 @@ namespace ClassLibrary1.Migrations
                     b.ToTable("Submissions");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Job", b =>
+            modelBuilder.Entity("AppC.Entities.Job", b =>
                 {
-                    b.HasOne("ApplicationCore.Entities.JobStatusLookUp", "JobStatusLookUp")
+                    b.HasOne("AppC.Entities.JobStatusLookUp", "JobStatusLookUp")
                         .WithMany()
                         .HasForeignKey("JobStatusLookUpId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -185,15 +185,15 @@ namespace ClassLibrary1.Migrations
                     b.Navigation("JobStatusLookUp");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Submission", b =>
+            modelBuilder.Entity("AppC.Entities.Submission", b =>
                 {
-                    b.HasOne("ApplicationCore.Entities.Candidate", "Candidate")
+                    b.HasOne("AppC.Entities.Candidate", "Candidate")
                         .WithMany("Submissions")
                         .HasForeignKey("CandidateId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ApplicationCore.Entities.Job", "Job")
+                    b.HasOne("AppC.Entities.Job", "Job")
                         .WithMany()
                         .HasForeignKey("JobId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -204,7 +204,7 @@ namespace ClassLibrary1.Migrations
                     b.Navigation("Job");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Candidate", b =>
+            modelBuilder.Entity("AppC.Entities.Candidate", b =>
                 {
                     b.Navigation("Submissions");
                 });

@@ -19,17 +19,21 @@ builder.Services.AddScoped<IEmployeeStatusLookUpRepository, EmployeeStatusLookUp
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IEmployeeStatusLookUpService, EmployeeStatusLookUpService>();
 
+// builder.Services.AddDbContext<OnboardingDbContext>(
+//     options => options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDbConnection")));
+var dockerConnectionString = Environment.GetEnvironmentVariable("MySQLConnectionString");
 builder.Services.AddDbContext<OnboardingDbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardingDbConnection")));
+    options => options.UseSqlServer(dockerConnectionString));
+
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 
 app.UseHttpsRedirection();
 

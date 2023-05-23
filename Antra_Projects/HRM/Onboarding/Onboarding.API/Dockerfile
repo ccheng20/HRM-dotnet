@@ -19,4 +19,5 @@ RUN dotnet publish "Onboarding.API.csproj" -c Release -o /app/publish /p:UseAppH
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+ENV MySQLConnectionString='Server=tcp:fullstackhrm.database.windows.net,1433;Initial Catalog=OnboardingDb;Persist Security Info=False;User ID=fullstack;Password=Yangwawa1010!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
 ENTRYPOINT ["dotnet", "Onboarding.API.dll"]

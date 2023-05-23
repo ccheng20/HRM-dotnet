@@ -23,7 +23,7 @@ namespace ClassLibrary1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ApplicationCore.Entities.Candidate", b =>
+            modelBuilder.Entity("AppC.Entities.Candidate", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -59,7 +59,7 @@ namespace ClassLibrary1.Migrations
                     b.ToTable("Candidates");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Job", b =>
+            modelBuilder.Entity("AppC.Entities.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

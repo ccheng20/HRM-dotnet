@@ -26,8 +26,10 @@ builder.Services.AddScoped<IStatusService, StatusService>();
 
 var dockerConnectionString = Environment.GetEnvironmentVariable("MSSQLConnectionString");
 //inject our connectionstring into DbContext
+// builder.Services.AddDbContext<RecruitingDbContext>(
+//     options => options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitingDbConnection")));
 builder.Services.AddDbContext<RecruitingDbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString(dockerConnectionString)));
+    options => options.UseSqlServer(dockerConnectionString));
 
 
 var app = builder.Build();

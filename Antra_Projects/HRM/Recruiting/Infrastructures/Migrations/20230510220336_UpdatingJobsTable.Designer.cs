@@ -23,7 +23,7 @@ namespace ClassLibrary1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ApplicationCore.Entities.Job", b =>
+            modelBuilder.Entity("AppC.Entities.Job", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

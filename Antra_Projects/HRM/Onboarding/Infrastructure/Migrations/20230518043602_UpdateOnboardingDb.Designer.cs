@@ -25,7 +25,7 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ApplicationCore.Entities.EmployeeStatusLookUp", b =>
+            modelBuilder.Entity("AppC.Entities.EmployeeStatusLookUp", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -48,7 +48,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("EmployeeStatusLookUps");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Employees", b =>
+            modelBuilder.Entity("AppC.Entities.Employees", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

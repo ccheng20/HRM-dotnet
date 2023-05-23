@@ -47,20 +47,6 @@ public class JobService : IJobService
         return jobResponseModel;
     }
     
-    public async Task<List<JobResponseModel>> GetJobsByTitle(string title)
-    {
-        var jobs = await _jobsRepository.GetJobsByTitle(title);
-        var models = new List<JobResponseModel>();
-        foreach (var job in jobs)
-        {
-            models.Add(new JobResponseModel()
-            {
-                Id = job.Id, Title = job.Title, StartDate = job.StartDate.GetValueOrDefault(), Description = job.Description, NumberOfPositions = job.NumberOfPositions, JobCode = job.JobCode
-            });
-        }
-
-        return models;
-    }
 
     public async Task<int?> UpdateJob(JobRequestModel model, int id)
     {
