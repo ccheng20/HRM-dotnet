@@ -2,6 +2,11 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/Users/chengcheng/projects/Antra_Projects/HRM/Interview/AppC/bin/Debug/net7.0/AppC.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=90e43180_002D5c33_002D4716_002Daf4a_002D78e9d64c1247/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestGetInterviewByIdFromFakeData" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::33F8CD35-BAE5-48BB-9B63-94AAC2A889B2::net7.0::InterviewsUnitTests.InterviewServiceUnitTest.TestGetInterviewByIdFromFakeData&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	
 	
 	
