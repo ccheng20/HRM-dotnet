@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recruiting", "Recruiting", "{08946DBA-DF8A-43C5-B239-EDBAEA814CBE}"
+	ProjectSection(SolutionItems) = preProject
+		Recruiting\Dockerfile = Recruiting\Dockerfile
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{4C82C308-50D9-4D98-BFA7-A58479ECE216}"
 EndProject
