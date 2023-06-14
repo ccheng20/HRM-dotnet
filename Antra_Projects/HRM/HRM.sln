@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{4C82C308-50D9-4D98-BFA7-A58479ECE216}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Onboarding", "Onboarding", "{AA9C2AD6-B9EC-43F5-8835-B51F9A31543A}"
+	ProjectSection(SolutionItems) = preProject
+		Onboarding\Dockerfile = Onboarding\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructures", "Recruiting\Infrastructures\Infrastructures.csproj", "{FF20B8E9-067E-40F5-8648-662DE2675FB7}"
 EndProject
