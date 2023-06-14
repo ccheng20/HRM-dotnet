@@ -1,4 +1,4 @@
-name: Trigger auto deployment for interview-container
+name: Trigger auto deployment for onboarding-container
 
 # When this action will be executed
 on:
@@ -7,8 +7,8 @@ on:
     branches: 
       [ main ]
     paths:
-    - 'Antra_Projects/HRM/Interviews/**'
-    - '.github/workflows/interview-container-AutoDeployTrigger-c4cea2bf-824d-4be1-a8a3-01ab43b97c39.yml'
+    - 'Antra_Projects/HRM/Onboarding/**'
+    - '.github/workflows/onboarding-container-AutoDeployTrigger-df4989f8-7572-4885-b161-fbb3fc11a648.yml'
 
   # Allow mannually trigger 
   workflow_dispatch:
@@ -24,18 +24,18 @@ jobs:
       - name: Azure Login
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.INTERVIEWCONTAINER_AZURE_CREDENTIALS }}
+          creds: ${{ secrets.ONBOARDINGCONTAINER_AZURE_CREDENTIALS }}
 
       - name: Build and push container image to registry
         uses: azure/container-apps-deploy-action@v1
         with:
-          appSourcePath: ${{ github.workspace }}/Antra_Projects/HRM/Interviews 
+          appSourcePath: ${{ github.workspace }}/Antra_Projects/HRM/Onboarding 
           registryUrl: fullstackbatchcr.azurecr.io
-          registryUsername: ${{ secrets.INTERVIEWCONTAINER_REGISTRY_USERNAME }}
-          registryPassword: ${{ secrets.INTERVIEWCONTAINER_REGISTRY_PASSWORD }}
-          containerAppName: interview-container
+          registryUsername: ${{ secrets.ONBOARDINGCONTAINER_REGISTRY_USERNAME }}
+          registryPassword: ${{ secrets.ONBOARDINGCONTAINER_REGISTRY_PASSWORD }}
+          containerAppName: onboarding-container
           resourceGroup: FullStackBatch
-          imageToBuild: fullstackbatchcr.azurecr.io/interview-container:${{ github.sha }}
+          imageToBuild: fullstackbatchcr.azurecr.io/onboarding-container:${{ github.sha }}
           dockerfilePath: Dockerfile
 
      
