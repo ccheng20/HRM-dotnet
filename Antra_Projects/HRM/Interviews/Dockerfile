@@ -5,11 +5,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["Interviews/Interview.API/Interview.API.csproj", "Interviews/Interview.API/"]
-COPY ["Interviews/ApplicationCore/ApplicationCore.csproj", "Interviews/ApplicationCore/"]
-COPY ["Interviews/Infrastructure/Infrastructure.csproj", "Interviews/Infrastructure/"]
+COPY ["Interview.API/", "Interviews/Interview.API/"]
+COPY ["ApplicationCore/", "Interviews/ApplicationCore/"]
+COPY ["Infrastructure/", "Interviews/Infrastructure/"]
 RUN dotnet restore "Interviews/Interview.API/Interview.API.csproj"
-COPY . .
 WORKDIR "/src/Interviews/Interview.API"
 RUN dotnet build "Interview.API.csproj" -c Release -o /app/build
 

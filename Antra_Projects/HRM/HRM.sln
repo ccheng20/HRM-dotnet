@@ -24,6 +24,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onboarding.API", "Onboarding\Onboarding.API\Onboarding.API.csproj", "{F460A2DD-3923-40EA-993F-0E228053F5E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interviews", "Interviews", "{3BE25EBA-275B-48D1-B6CE-29A7331456C9}"
+	ProjectSection(SolutionItems) = preProject
+		Interviews\Dockerfile = Interviews\Dockerfile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "Interviews\ApplicationCore\ApplicationCore.csproj", "{4531725A-8E92-41DE-8894-85E8046F0DBF}"
 EndProject
