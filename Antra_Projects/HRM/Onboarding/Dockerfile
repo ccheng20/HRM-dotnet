@@ -6,8 +6,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["Onboarding.API/", "Onboarding/Onboarding.API/"]
-COPY ["Infrastructure/", "Onboarding/Infrastructure/"]
 COPY ["ApplicationCore/", "Onboarding/ApplicationCore/"]
+COPY ["Infrastructure/", "Onboarding/Infrastructure/"]
 RUN dotnet restore "Onboarding/Onboarding.API/Onboarding.API.csproj"
 WORKDIR "/src/Onboarding/Onboarding.API"
 RUN dotnet build "Onboarding.API.csproj" -c Release -o /app/build
